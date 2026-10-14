@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-SUBSCRIPTION_ID="a66bdd02-2793-42a2-b680-feb23b03cdb7"
-SP_NAME="raham"
-REPO="devopsbyraham/python-flask-app"
+SUBSCRIPTION_ID="c5a3dcf3-8c93-487d-b350-49c697ad1609"
+SP_NAME="rahim"
+REPO="shaikr4873-alt/python-flask-app"
 
 if [[ -z "${GH_PAT:-}" ]]; then
   echo "Set GH_PAT to a GitHub PAT with repo admin access"
